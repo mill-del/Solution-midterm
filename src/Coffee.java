@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
-
-public class Coffee {
+public interface Coffee {
+    String getDescription();
+    double getCost();
 }

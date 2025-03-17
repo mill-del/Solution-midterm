@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
+public class Cappuccino implements Coffee {
+    @Override
+    public String getDescription() {
+        return "Cappuccino";
+    }
 
-public class Cappuccino {
+    @Override
+    public double getCost() {
+        return 4.00;
+    }
 }

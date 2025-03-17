@@ -1,4 +1,15 @@
-package PACKAGE_NAME;
+public class WhippedCreamDecorator extends CoffeeDecorator {
+    public WhippedCreamDecorator(Coffee coffee) {
+        super(coffee);
+    }
 
-public class WhippedCreamDecorator {
+    @Override
+    public String getDescription() {
+        return super.getDescription() + ", Whipped Cream";
+    }
+
+    @Override
+    public double getCost() {
+        return super.getCost() + 0.60;
+    }
 }
